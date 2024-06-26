@@ -1,46 +1,18 @@
-# OpenSlides
-
-## What is OpenSlides?
-
-OpenSlides is a free, web based presentation and assembly system for
-managing and projecting agenda, motions and elections of an assembly. See
-https://openslides.com for more information.
-
-
-## Installation
-
-To setup an OpenSlides 4 instance, please follow our [install
-instructions](INSTALL.md).
-
-
-## Migration from OpenSlides 3.4
-
-The structure of the application as well as the usage changed heavily with OpenSlides 4. The new
-structure supports multiple meetings, grouped into committees, in one organization. A previous
-instance of OpenSlides 3 is now a single meeting in OpenSlides 4. This is why there is no automatic
-migration path.
-
-However, you have the possiblity to export your meeting from OpenSlides 3 and import it in
-OpenSlides 4:
-- In your __OpenSlides 3__ instance, go to "Settings", click on the three dots in the top right-hand
-  corner and click "Export to OpenSlides4". A JSON file will be downloaded which contains all your
-  instance's data.
-- In your __OpenSlides 4__ instance, create a committee to hold your old meeting by selecting
-  "Committees" on the left side, clicking the "+" button, filling out the relevant form data and
-  clicking "Save" (or choose an existing meeting by selecting the respective list entry). In the
-  committee's detail view, click on the three dots in the top right-hand corner and then "Import
-  meeting". Select the previously downloaded file and click "Upload". You should now see your
-  OpenSlides 3 instance as an entry in the meeting list.
-
-
-## Development
-
-For further information about developing OpenSlides, refer to [the development
-readme](DEVELOPMENT.md).
-
-
-## License and authors
-
-OpenSlides is Free/Libre Open Source Software (FLOSS), and distributed under the
-MIT License, see [LICENSE file](LICENSE). The authors of OpenSlides are
-mentioned in the [AUTHORS file](AUTHORS).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放式幻灯片</font></font></h1><a id="user-content-openslides" class="anchor" aria-label="永久链接：OpenSlides" href="#openslides"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是 OpenSlides？</font></font></h2><a id="user-content-what-is-openslides" class="anchor" aria-label="永久链接：什么是 OpenSlides？" href="#what-is-openslides"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenSlides 是一款免费的基于网络的演示和会议系统，用于管理和预测会议议程、动议和选举。
+</font><font style="vertical-align: inherit;">更多信息请访问</font></font><a href="https://openslides.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://openslides.com 。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="固定链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要设置 OpenSlides 4 实例，请按照我们的</font></font><a href="/OpenSlides/OpenSlides/blob/main/INSTALL.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行操作。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 OpenSlides 3.4 迁移</font></font></h2><a id="user-content-migration-from-openslides-34" class="anchor" aria-label="永久链接：从 OpenSlides 3.4 迁移" href="#migration-from-openslides-34"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenSlides 4 改变了应用程序的结构和使用方式。新结构支持在一个组织内分组到委员会的多个会议。OpenSlides 3 的先前实例现在是 OpenSlides 4 中的单个会议。这就是为什么没有自动迁移路径的原因。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">但是，您可以从 OpenSlides 3 导出会议并将其导入 OpenSlides 4：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenSlides 3</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实例中，转到“设置”，点击右上角的三个点，然后点击“导出到 OpenSlides4”。将下载一个包含您所有实例数据的 JSON 文件。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenSlides 4</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实例中，创建一个委员会来召开您的旧会议，方法是选择左侧的“委员会”，单击“+”按钮，填写相关表单数据并单击“保存”（或通过选择相应的列表条目来选择现有会议）。在委员会的详细信息视图中，单击右上角的三个点，然后单击“导入会议&ZeroWidthSpace;&ZeroWidthSpace;”。选择之前下载的文件并单击“上传”。您现在应该会在会议列表中看到您的 OpenSlides 3 实例。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></h2><a id="user-content-development" class="anchor" aria-label="固定链接：开发" href="#development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关开发 OpenSlides 的更多信息，请参阅</font></font><a href="/OpenSlides/OpenSlides/blob/main/DEVELOPMENT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发自述文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可和作者</font></font></h2><a id="user-content-license-and-authors" class="anchor" aria-label="永久链接：许可和作者" href="#license-and-authors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenSlides 是自由/自由开源软件 (FLOSS)，并根据 MIT 许可证分发，请参阅</font></font><a href="/OpenSlides/OpenSlides/blob/main/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LICENSE 文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。OpenSlides 的作者在</font></font><a href="/OpenSlides/OpenSlides/blob/main/AUTHORS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AUTHORS 文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中提及。</font></font></p>
+</article></div>
